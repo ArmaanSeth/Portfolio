@@ -1,0 +1,70 @@
+.TechStack{
+    width: 100%;
+    display: grid;
+    place-items:center;
+}
+.slider{
+    position: relative;
+    width: 100%;
+    height: fit-content;
+    display: flex;
+    overflow: hidden;
+}
+
+.stack-l{
+    width: fit-content;
+    height: 100%;
+    list-style: none;
+    box-sizing: border-box;
+    display: flex;
+    align-items: center;
+    animation: slideLeft 20s linear infinite;
+}
+
+@keyframes slideLeft {
+    100%{
+        transform:translateX(calc(.25rem + .5vw - 100%/2));
+    }
+}
+
+.stack-r{
+    width: fit-content;
+    list-style: none;
+    box-sizing: border-box;
+    display: flex;
+    align-items: center;
+    animation: slideRight 10s linear infinite;
+}
+
+@keyframes slideRight {
+    0%{
+        transform:translateX(calc(1rem + .5vw - 100%/2));
+    }
+}
+
+.slider::before,
+.slider::after{
+    position: absolute;
+    content: "";
+    width: fit-content;
+}
+
+.logo-image{
+    position: relative;
+    background-color: rgb(255, 255, 255);
+    height: calc(1rem + 7vw);
+    display: flex;
+    align-items: center;
+    margin-right: calc(.5rem + 1vw);
+    margin-left: calc(.5rem + 1vw);
+    border-radius: 1rem;
+    box-shadow: 4px 4px 0px 3px rgba(84, 80, 80, 0.5);
+    overflow: hidden;
+}
+.logo-image img{
+    padding-left: calc(.5rem + 1vw);
+    padding-right: calc(.5rem + 1vw);
+    height: calc(1rem + 7vw);
+}
+
+

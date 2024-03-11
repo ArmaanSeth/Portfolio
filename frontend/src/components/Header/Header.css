@@ -1,12 +1,25 @@
 .Header{
     font-family: "Roboto", sans-serif;
-    font-weight: 500;
     font-style: normal;
+    padding: calc(1rem + 4vw);
+}
+.btn{
+    font-family: unset;
+    color: unset;
+    font-weight: 400;
+    font-size: calc(.5rem + 1vw);
+    width: auto;
+    padding: 1.5rem;
+    background-color: transparent;
+    border: solid 1px;
+    border-radius: 5rem;
+}
+.container{
+    font-weight: 500;
     font-size: calc(1rem + 6vw);
     display: flex;
     flex-direction:row;
     align-items: center;
-    padding: calc(1rem + 4vw);
 }
 .image{
     order:2;
@@ -22,9 +35,13 @@
 }
 
 @media screen and (max-width: 550px){
-    .Header{
+    .container{
         display: block;
         align-content: center;
+    }
+    .btn{
+        margin-top: 10px;
+        padding: 10px;
     }
     .image{
         padding: 0%;
