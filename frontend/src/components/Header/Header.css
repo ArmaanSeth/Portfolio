@@ -1,0 +1,41 @@
+.Header{
+    font-family: "Roboto", sans-serif;
+    font-weight: 500;
+    font-style: normal;
+    font-size: calc(1rem + 6vw);
+    display: flex;
+    flex-direction:row;
+    align-items: center;
+    padding: calc(1rem + 4vw);
+}
+.image{
+    order:2;
+    width: 30%;
+    padding-left: 2rem;
+}
+.image img{
+    width: 100%;
+    border-radius: 50%;
+}
+.text{
+    width: 70%;
+}
+
+@media screen and (max-width: 550px){
+    .Header{
+        display: block;
+        align-content: center;
+    }
+    .image{
+        padding: 0%;
+        width: 100%;
+        text-align: center;
+    }
+    .image img{
+        width: 30%;
+    }
+    .text{
+        margin-top: 2rem;
+        width: 100%;
+    }
+}
