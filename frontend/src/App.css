@@ -1,5 +1,13 @@
+:root{
+    --alternate-dark:rgb(11, 11, 11);
+    --alternate-light:rgb(40, 40, 40);  
+    --dark:rgb(0,0,0);
+    /* --alternate-dark:rgb(130, 130, 130);
+    --alternate-light:rgb(255, 255, 255); 
+    --dark: rgb(143, 143, 143); */
+}
 body{
-    background-color: black;
+    background-color: rgb(23, 23, 23);
     color: white;
 }
 /* #dark{
