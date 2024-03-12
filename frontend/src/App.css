@@ -1,24 +1,3 @@
-:root{
-    --alternate-dark:rgb(11, 11, 11);
-    --alternate-light:rgb(40, 40, 40);  
-    --dark:rgb(0,0,0);
-    --alternate-bg: white;
-    --alternate-txt: black;
-    --light-txt: #e9e9e9;
-
-
-    /* Light */
-    /* --alternate-dark:rgb(255, 255, 255);
-    --alternate-light:rgb(251, 233, 218); 
-    --dark: rgb(218, 209, 200); 
-    --alternate-bg: rgb(23, 23, 23);
-    --alternate-txt: white;
-    --light-txt: #303030; */
-}
-body{
-    background-color: rgb(23, 23, 23);
-    color: white;
-}
 *{
     scroll-behavior: smooth;
 }
