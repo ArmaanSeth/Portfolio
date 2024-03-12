@@ -57,15 +57,22 @@ function About() {
       document.body.appendChild(css);
   };
   return (
-      <div className="About">    
+      <div className="About" id='about'>    
         <h1>About</h1>
         <div className='about-container'>
             <div className='about-image'><img src='https://raw.githubusercontent.com/ArmaanSeth/Images/main/the-blobs-live-on-waving.gif'/></div>
-            <div className="animation"> <a href="" className="typewrite" data-period="2000" data-type='[ "Hi, I am Armaan Seth, an AI/ML developer." ]'>
-            <span className="wrap"></span>
-  </a></div>        
+            <div className="animation"> 
+              <a href="" className="typewrite" data-period="2000" data-type='[ "Hi, I am Armaan Seth, an AI/ML developer." ]'>
+                <span className="wrap"></span>
+              </a>
+            </div>        
         </div>        
-        <div className="about" >I am currently pursuing my B-Tech degree in Computer Science and Engineering with a major in Artificial Intelligence and Machine Learning (AI/ML) at Maharaja Surajmal Institute of Technology, Delhi. With a fervent enthusiasm for exploring diverse tech stacks, my focus lies primarily within AI/ML. Recently, I have been tinkering with Generative AI and Natural Language Processing.</div>    
+        <div className="about" >I am currently pursuing my B-Tech degree in Computer Science and Engineering with a major in Artificial Intelligence and Machine Learning (AI/ML) at Maharaja Surajmal Institute of Technology, Delhi. With a fervent enthusiasm for exploring diverse tech stacks, my focus lies primarily within AI/ML. Recently, I have been tinkering with Generative AI and Natural Language Processing.
+        <br/>
+        <br/>
+        <a className="resume-btn" href='https://drive.google.com/file/d/1XtNCOhBQgzhEvrnjLzQCqY7DTJ-CHSNi/view?usp=drive_link'>Resume <i class="fa-solid fa-up-right-and-down-left-from-center"></i></a>
+        </div>    
+        
       </div>
     );
   }

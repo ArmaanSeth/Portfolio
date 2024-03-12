@@ -33,7 +33,7 @@
     box-sizing: border-box;
     display: flex;
     align-items: center;
-    animation: slideRight 10s linear infinite;
+    animation: slideRight 7s linear infinite;
 }
 
 @keyframes slideRight {
@@ -51,14 +51,14 @@
 
 .logo-image{
     position: relative;
-    background-color: rgb(255, 255, 255);
+    background-color: white;
     height: calc(1rem + 7vw);
     display: flex;
     align-items: center;
     margin-right: calc(.5rem + 1vw);
     margin-left: calc(.5rem + 1vw);
     border-radius: 1rem;
-    box-shadow: 4px 4px 0px 3px rgba(84, 80, 80, 0.5);
+    box-shadow: 0.2vw 0.2vw 0px 0.1vw var(--light-txt);
     overflow: hidden;
 }
 .logo-image img{
@@ -66,5 +66,7 @@
     padding-right: calc(.5rem + 1vw);
     height: calc(1rem + 7vw);
 }
+
+
 
 

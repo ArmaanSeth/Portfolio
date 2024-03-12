@@ -4,6 +4,7 @@
     padding: calc(1rem + 4vw);
 }
 .btn{
+    text-decoration: none;
     font-family: unset;
     color: unset;
     font-weight: 400;
@@ -14,12 +15,17 @@
     border: solid 1px;
     border-radius: 5rem;
 }
+.btn:hover{
+    box-shadow: 2px 2px 5px 0;
+}
+
 .container{
     font-weight: 500;
     font-size: calc(1rem + 6vw);
     display: flex;
     flex-direction:row;
     align-items: center;
+    margin-bottom: 2rem;
 }
 .image{
     order:2;

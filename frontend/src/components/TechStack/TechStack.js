@@ -20,6 +20,7 @@ function TechStack() {
                 {tech_logo.map(createLogo)}
             </ul>
         </div> 
+        
       </div>
     );
   }

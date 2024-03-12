@@ -7,17 +7,17 @@ function createCard(project){
             <div className='card-image'>
                 <img src={project.img}/>
             </div>
-            <p>{project.des}</p>
+            <p>{project.desc}</p>
             <div className='card-footer'>
-                <button className='card-btn' href={project.glink}><i class="fa-brands fa-github"></i> GitHub</button>
-                <button className='card-btn' href={project.wlink}><i class="fa-solid fa-globe"></i> WebLink</button>
+                <a className='card-btn' href={project.glink}><i class="fa-brands fa-github"></i> GitHub</a>
+                <a className='card-btn' href={project.wlink}><i class="fa-solid fa-globe"></i> WebLink</a>
             </div>
         </div>
     )
 }
 function Projects() {
     return (
-      <div className="Projects">       
+      <div className="Projects" id='project'>       
         <h1>Projects</h1>
         <div className='projects-container'>
             {project_list.map(createCard)}
