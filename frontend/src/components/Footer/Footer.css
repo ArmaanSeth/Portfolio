@@ -27,9 +27,9 @@
 .mail-btn{
     color: unset;
     text-decoration: none;
-    font-size: calc(0.5rem + 0.5vw);
+    font-size: calc(0.4rem + 0.5vw);
     font-family: unset;
-    padding: .8rem;
+    padding: calc(0.3rem + 0.5vw);;
     background-color: transparent;
     border: 2px solid;
     border-radius: 2rem;
@@ -60,5 +60,5 @@
 .icons i{
     margin: 0%;
     padding: 0%;
-    font-size: 2vw;
+    font-size: 1.5rem;
 }

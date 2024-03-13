@@ -8,7 +8,7 @@ function Footer() {
         <div className='icons'>
             <a href='https://medium.com/@seth.armaanseth'><i class="fa-brands fa-medium"></i></a>
             <a href='https://twitter.com/ARMAANSETH12'><i class="fa-brands fa-x-twitter"></i></a>
-            <a href='https://www.kaggle.com/armaanseth6702' className=''><i>🤗</i></a>
+            <a href='https://www.kaggle.com/armaanseth6702' className=''>🤗</a>
             <a href='https://www.linkedin.com/in/armaan-seth-297195220/'><i class="fa-brands fa-linkedin"></i></a>
             <a href='https://github.com/ArmaanSeth'><i class="fa-brands fa-github"></i></a>
             <a href='https://www.kaggle.com/armaanseth6702'><i class="fa-brands fa-kaggle"></i></a>
