@@ -23,6 +23,8 @@ function Navbar(){
         setClick_(!click_)
         var t=document.body
         var root = document.documentElement;
+        var logo=document.getElementsByClassName('logo')[0]
+        var logo_img = document.getElementById('logo_img');
         if(click_){
             t.style.backgroundColor='rgb(23, 23, 23)';
             t.style.color='white';
@@ -32,10 +34,14 @@ function Navbar(){
             root.style.setProperty("--alternate-bg", 'white')
             root.style.setProperty("--alternate-txt", 'black')
             root.style.setProperty("--light-txt", '#e9e9e9')
+            logo_img.src='https://raw.githubusercontent.com/ArmaanSeth/Images/main/logo.jpg'
+            logo.style.backgroundColor='black'
         }
         else{
             t.style.backgroundColor='white';
-            t.style.color='black'
+            t.style.color='black';
+            logo_img.src='https://raw.githubusercontent.com/ArmaanSeth/Images/main/logo-b.jpg'
+            logo.style.backgroundColor='white';
             root.style.setProperty("--alternate-dark",'rgb(255, 255, 255)')
             root.style.setProperty("--alternate-light",'rgb(251, 233, 218)')
             root.style.setProperty("--dark", 'rgb(218, 209, 200)')
@@ -49,7 +55,7 @@ function Navbar(){
         
         <nav className="Navbar">
 
-            <div className='logo'><img src='./logo.jpg'/>{/*<i className="fa-solid fa-bars-staggered"></i>*/}</div>
+            <div className='logo'><img id='logo_img' src='https://raw.githubusercontent.com/ArmaanSeth/Images/main/logo.jpg'/></div>
             <div className='menu-icon' onClick={handleClick}>
                 <i className={click?'fa fa-times':'fa fa-bars'}></i>
             </div>
