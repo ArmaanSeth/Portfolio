@@ -19,6 +19,14 @@
     box-shadow: 2px 2px 5px 0;
 }
 
+#hip{
+    margin: 0%;
+    font-weight: 600;
+    text-decoration: none;
+    border: none;
+    font-size: calc(1rem + 3vw);
+    padding-bottom: 0%;
+}
 .About h1{
     padding-bottom: 2rem;
     font-size: calc(2rem + 3vw);
@@ -34,15 +42,13 @@
     align-items: center;
 }
 
-.animation, .typewrite{
+.animation{
     color: unset;
     text-decoration: none;
     padding-top: 3rem;
     padding-left: 3rem;
     text-align: left;
     margin: 0%;
-    font-size: calc(1rem + 3vw);
-    font-weight: 600;
     width: 70%;
 }
 
