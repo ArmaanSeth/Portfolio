@@ -11,7 +11,7 @@ const project_list=[
         img:"https://raw.githubusercontent.com/ArmaanSeth/Images/main/perplexity-lite.png",
         desc:"This projects replicates the websearch engine called Perplexity, it is built using Google's Gemini-pro, tavily-api for web searches and langgraph. This project can be used to search tailored information according to the individual's needs providing them both the actual link and the extracted information.",
         glink:"https://github.com/ArmaanSeth/Perplexity-Lite",
-        wlink:"perplexity-lite.onrender.com/"
+        wlink:"https://perplexity-lite.onrender.com/"
     },
     {
         heading:"Youtube-Summary-Extension",
@@ -46,7 +46,7 @@ const project_list=[
         img:"https://raw.githubusercontent.com/ArmaanSeth/Images/main/FarmAid.png",
         desc:"Farm Aid is a web-based platform aimed at providing valuable assistance to farmers in their crop harvesting process. The platform offers three main facilities to farmers: Crop Recommendation, Disease Detection, Fertilizer Recommendation ",
         glink:"https://github.com/ArmaanSeth/FarmAid",
-        wlink:"farmaid.onrender.com/"
+        wlink:"https://farmaid.onrender.com/"
     },
 ]
  export default project_list;
